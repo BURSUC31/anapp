@@ -36,4 +36,4 @@ app.use((req, res, next) => {
 });
 httpServer.listen(80, "www.dimt.me");
 httpsServer.listen(443, "www.dimt.me");
-app.listen(3000, () => console.log("connection open"));
+app.listen(80, () => console.log("connection open on port 80"));
